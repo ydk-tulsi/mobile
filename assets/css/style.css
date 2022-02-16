@@ -1,0 +1,220 @@
+
+/*******************hero section css*******************/
+.container{
+	max-width: 1100px;
+	margin: 0 auto;
+}
+#hero{
+	background-image: linear-gradient(rgba(218, 51, 45,0.6),rgba(218,51, 45,0.6)),url('../image/bg-img.jpg');
+	background-size: cover;
+	background-attachment: fixed;
+	background-position: center;
+	background-repeat: no-repeat;
+	padding: 40px 0;
+	overflow-y: hidden;
+}
+.logo a{
+	display: table;
+	width: 100%;
+	clear: both;
+	
+}
+.nav li{
+	display: inline-block;
+	margin-left: 10px;
+}
+.nav li a{
+	color: #fff;
+	text-transform: uppercase;
+	padding: 10px;
+	cursor: pointer;
+	font-size: 16px;
+	display: inline-block;
+	position: relative;
+}
+.nav li a::after{
+	content: '';
+	position: absolute;
+	height: 2px;
+	width:0;
+	background-color: #fff;
+	left: 0;
+	bottom: 0;
+	transition: all 0.5s ease-in-out;
+}
+.nav li a:hover::after{
+	width: 100%;
+}
+
+.nav li:last-child a{
+	padding-right: 0px;
+}
+.cta-info h2{
+	color: #fff;
+	font-size: 52px;
+	font-weight: bold;
+	margin: 100px 0 60px;
+	text-transform: uppercase;
+}
+.cta-info p{
+	color:#fff;
+	font-size: 36px;
+	margin-bottom: 55px;
+	line-height: 40px;
+}
+.cta-info a{
+	background-color:#282828;
+	padding: 12px 50px 12px 40px;
+	border-radius:50px;
+	display: inline-block;
+	color: #fff;
+}
+.cta-info a i{
+	font-size:45px;
+	margin-right: 20px;
+	vertical-align: middle;
+}
+
+.cta-img{
+	position: relative;
+	
+}
+.cta-img img{
+	/* margin-top: 60px; */
+	position: absolute;
+	right: 0;
+	top:60px;
+}
+
+/*******************heading section css*******************/
+
+#app-features{
+	padding: 85px 0px 100px;
+}
+.heading-features h2{
+	font-size: 52px;
+	font-weight: bold;
+	color: #8a8a8a;
+	
+}
+.heading-features p{
+	font-size: 22px;
+	font-weight: regular;
+	color: #4a4a4a;
+	margin-bottom: 65px;
+}
+
+
+/*************features section css****************/
+
+.features img{
+	margin-bottom:38px;
+}
+.features-heading{
+	margin-bottom:46px;
+	font-size: 24px;
+    color: #1a1a1a;
+    text-transform: uppercase;
+}
+.features-para{
+	font-size: 18px;
+    color: #646464;
+	line-height: 30px;
+}
+
+/*****************hero2 section css ********************/
+.hero-2{
+	background-color: #d7dedc;
+    background-image: url(../image/hero-2.png);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    padding: 198px 0 172px;
+}
+.hero-2-heading{
+    font-size: 52px;
+    color: #fff;
+    text-transform: uppercase;
+}
+.hero-2 span{
+	color:#f55150;
+}
+.hero-2-para{
+	font-size: 24px;
+    color: #585858;
+    line-height: 32px;
+    font-weight: 300;
+}
+.download-btn{
+	background-color: #d9332d;
+    border: 2px solid #d9332d;
+    font-size: 15px;
+    font-weight: bold;
+    color: #fff;
+    padding: 18px 24px;
+    border-radius: 50px;
+    text-transform: uppercase;
+   cursor:pointer;
+}
+.download-btn:active,
+.download-btn:focus,
+.download-btn:hover,
+.download-btn:visited{
+	background-color:#fff;
+	color:#d9332d;
+}
+.footer{
+	padding: 121px 0 151px;
+    background-color: #2e2e38;
+}
+.footer-heading{
+	font-size: 20px;
+    color: #fff;
+	margin-bottom: 28px;
+}
+.orenge-box{
+	    width: 55px;
+    height: 42px;
+    background-color: #e74c3c;
+    cursor: pointer;
+}
+.heading{
+    font-size: 15px;
+    font-weight: bold;
+    color: #fff;
+    display:inline-block;
+}
+.info p{
+	font-size: 11px;
+    color: #fff;
+}
+.footer-info-para{
+	font-size: 15px;
+    color: #fff;
+    font-style: italic;
+    line-height: 23px;
+    padding-right: 50px;
+}
+.footer-nav{
+    background-color: #d7dedc;
+    padding: 41px 0;
+}
+.website a{
+    font-size: 24px;
+    color: #000;
+    padding: 3px 15px;
+    border-right: 2px solid #000;
+	display:inline-block;
+}
+.icons a{
+    font-size: 30px;
+    color: #4762a1;
+    margin-right: 40px;
+	
+}
+.icons a:nth-child(2) i{
+	color:#d83878;
+}
+.icons a:last-child i{
+	color:#2b689a;
+}
